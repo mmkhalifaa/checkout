@@ -17,7 +17,7 @@ class App extends Component {
     render() {
         return (
             <main>
-                <Form onFormChange={this.onChange} />
+                <Forms onFormChange={this.onChange} />
                 <Graph Rating={this.state.Rating} />
                 <Comment Message={this.state.Comment} Name={this.state.name} Rating={this.state.Rating} />
             </main>
