@@ -19,7 +19,7 @@ class App extends Component {
             <main>
                 <Forms onFormChange={this.onChange} />
                 <Graph Rating={this.state.Rating} />
-                <Comment Message={this.state.Comment} Name={this.state.name} Rating={this.state.Rating} />
+                <Comment Message={this.state.Comment} Name={this.state.Name} Rating={this.state.Rating} />
             </main>
         );
     }
