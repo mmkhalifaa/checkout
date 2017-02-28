@@ -32,7 +32,7 @@ class Graph extends Component {
     componentDidMount() {
         let chart = this.refs.chart.getChart();
         chart.series[0].name = "Checkout comments";
-        chart.series[0].setData([{ x: (new Date).getTime()*1000, y: this.props.Rating }]);
+        chart.series[0].addPoint([{ x: (new Date).getTime()*1000, y: this.props.Rating }]);
     }
 
     render() {
