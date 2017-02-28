@@ -4,7 +4,7 @@ import moment from "moment";
 import "../../style/main.scss";
 
 
-const Comment = ( Message, Name, Rating ) => (
+const Comment = ({ Message, Name, Rating }) => (
 
     <Col xs={6} md={4}>
         <Thumbnail className="comment">
